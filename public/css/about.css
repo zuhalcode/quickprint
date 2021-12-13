@@ -1,0 +1,60 @@
+.about-section {
+  margin-top: -100px;
+  background-size: 100%;
+}
+@media (min-width: 992px) {
+  .about-section {
+    margin-top: -100px;
+    background: url(../img/bg.jpeg) no-repeat left;
+  }
+}
+.about-section .inner-container {
+  padding-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .about-section .inner-container {
+    padding: 100px 0 154px;
+    margin-top: 130px;
+    color: white;
+  }
+}
+.about-section .inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+.about-section .inner-container .text {
+  font-size: 18px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+}
+@media (min-width: 992px) {
+  .about-section .inner-container .text {
+    color: white;
+  }
+}
+.about-section .inner-container .skills {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+
+  .inner-container {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
